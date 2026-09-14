@@ -1,2 +1,2 @@
 Author: Evan Berna
-Purpose: 
+Purpose: To show how we know css. I did struggle with stuff and do need some guidance
