@@ -1,6 +1,6 @@
         html {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: grey;
+            background-color: grey; /* background color to match theme*/
             color: white;
         }
 
@@ -19,12 +19,12 @@
         }
 
         a{
-            display: inline-block;
-            color: white;
-            text-decoration: none;
+            display: inline-block; 
+            color: white; /* text color*/
+            text-decoration: none; 
             padding: 5px 10px;
             border: 1px solid;
-            transition: all 0.3s ease;
+            transition: all 0.3s ease; /* added transition*/
         }
 
         a:hover{
@@ -32,34 +32,40 @@
             color: white;
         }
 
+        div {
+            border: 2px solid;
+            padding: 20px;
+            margin: 20px;
+        }
+
         body {
-            padding: 5px;
-            margin: 5px;
+            padding: 5px; /*added space*/      
+            margin: 5px; /*added space*/   
             background-color: darkgrey;
         }
 
         h1 {
-            text-align: center;
+            text-align: center; /*centered my text*/
         }
 
         h2 {
-            text-align: center;
+            text-align: center; /*centered my text*/
         }
 
         table {
-            border: 1px;
+            border: 1px; 
             border-collapse: collapse;
-            margin: .5em;
+            margin: .5em; /* added space*/
         }
         th, td{
-            border: 2px;
-            padding: .4em;
-            text-align: center;
+            border: 2px; 
+            padding: .4em; /* added space*/
+            text-align: center; /*centered my text*/
         }
         tbody{
-            border: 1px;
-            padding: .4em;
-            text-align: center;
+            border: 1px; 
+            padding: .4em; /* added space*/
+            text-align: center; /*centered my text*/
         }
 
 
